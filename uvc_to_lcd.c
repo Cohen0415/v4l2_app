@@ -3,7 +3,7 @@
 *   file: uvc_to_lcd.c
 *   date: 2025-02-26
 *   usage: 
-*       sudo gcc -o uvc_to_lcd uvc_to_lcd.c
+*       sudo gcc -o uvc_to_lcd uvc_to_lcd.c -ljpeg
 *       sudo ./uvc_to_lcd /dev/videoX /dev/fbX
 *
 */
